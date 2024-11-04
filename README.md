@@ -2,10 +2,10 @@
 Welcome!! This is my github page
 
 My presentation slides using reveal js:
-[presentation slides (reveal js)](presentation_reveal_js.qmd)
+[presentation slides (reveal js)](presentation_reveal_js.pdf)
 
 My presentation slides using beamer:
-[presentation slides (beamer)](presentation_beamer.qmd)
+[presentation slides (beamer)](presentation_beamer.pdf)
 
 My CV:
 [CV](CV_Aftab.pdf)
