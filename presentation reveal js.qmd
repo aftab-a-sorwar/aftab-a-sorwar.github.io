@@ -1,0 +1,38 @@
+---
+title: "Presentation"
+author: "Aftab A Sorwar"
+format: revealjs
+editor: visual
+---
+
+## **Title**
+
+**Professional Communication**
+
+## **Introduction:**
+
+I am Aftab A Sorwar. You can just call me Aftab. I was born on 3rd September 1999 in Chattogram, Bangladesh and also I grew up there. I completed my Bachelors in Statistics from the University of Dhaka. Currently, I am pursuing my Ph.D. in Statistics from the University of Nebraska Lincoln. I started here in the Fall of 2024, so I'm expecting my graduation by the end of 2029.
+
+## **Favorite Animal picture:**
+
+![source: https://amazing-creature.blogspot.com/2013/04/funny-cats-part-46-30-pics-10-gifs.html](image/fav%20animal.jpg){width="430"}
+
+## **Favorite Plot:**
+
+Though it's not the favorite, but it's a funny one.
+
+```{r,echo=FALSE}
+df <- data.frame(type=c("Watery dribble","Not at all","The entire contant in one projectile splort","An effortless smooth flow"),percentage=c(33.33,33.33,33.34,0)) 
+library(tidyverse) 
+library(ggtext) 
+df %>% ggplot(aes(x="",y=percentage,fill=type,))+   
+  geom_bar(stat = "identity", width = 1,color = "black") +   
+  coord_polar("y", start = 0) +   
+  scale_fill_manual(values = c("yellow", "blue", "green", "red")) +    
+  theme_void()+   ggtitle("How Ketchup comes out of a bottle",)+   
+  theme(plot.title = element_text(size=30),legend.text=element_text(size=rel(2)))
+```
+
+## **CV link:**
+
+Here's the [link](CV_Aftab.pdf) to the CV made using Overleaf and also the [link](CV_aftab.tex) to the tex file.
